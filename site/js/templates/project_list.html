@@ -1,0 +1,14 @@
+<% _.each(projects, function(project) { %>
+	<div class="col-sm-4">
+		<ul class="list-group">
+			<li class="list-group-item"> <%= project['titulo'] %> </li>
+			<li class="list-group-item"> <%= project['cliente'] %> </li>
+			<li class="list-group-item"> <%= project['verticales'] %> </li>
+			<li class="list-group-item"> <%= project['horas_asig'] %> </li>
+			<li class="list-group-item"> <%= project['status'] %> </li>
+			<li class="list-group-item"> <%= project['detalle'] %> </li>
+			<li class="list-group-item"> <%= project['consultores'] %> </li>
+			<li class="list-group-item"> <%= project['lider'] %> </li>
+		</ul>
+	</div><!-- /.col-sm-4 -->
+<% }); %>

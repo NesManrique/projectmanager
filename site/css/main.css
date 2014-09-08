@@ -1,0 +1,30 @@
+.dropdown-update {
+	min-width:80px;
+}
+
+.update-heading {
+	padding:5px 10px;
+}
+
+.update-date {
+	margin-bottom:5px;
+}
+
+.project-summary-panel {
+	padding:0px;
+}
+
+.project-summary {
+	border-radius:5px;
+}
+
+.divider-vertical {
+	height: 40px;
+	margin: 0 9px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #ffffff;
+}
+
+.control-group{
+	margin-bottom: 30px;
+}
